@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # or any package manager such as "pip", "maven", "gradle"
+    directory: "requirements/" # location of your dependencies file (like package.json)
+    schedule:
+      interval: "daily" 
